@@ -1,0 +1,144 @@
+<!-- "ENCICLOPEDIA/GLOSARIO HTML" https://developer.mozilla.org/es/docs/Glossary/HTML -->
+<!--Pagina principal de nuestro proyecto(a partir de este html empieza a correr todo lo demas)-->
+<!-- DOCTYPE "Le decimos que es un doc en HTML y la version" -->
+<!DOCTYPE html> 
+<!-- html "Encapsula todo nuestro htmal, nada puede vivir afuera" -->
+<html lang = "es">
+    <!-- head metadatos que le enviamos al navegador y configuraciones -->
+    <head>
+        <!-- META = Envio informacion extra que no se ve. Caracteres del lenguaje a trabajar -->
+        <!-- charset es el set de caracteres del idioma que utilizaremos -->
+        <meta charset = "UTF-8">
+        <!-- Se asegura que se vea bien en cualquier dipositivo -->
+
+        <!--Nombre de la pestaña del navegador-->
+        <title>Nebulosas</title>
+        <!--Conexion con CSS,  rel - relacion de este docuemnto, hoja de estili, el hred, pregunta donde esta-->
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <!--Body - es lo que ve el usuario-->
+    <body>
+        <!--main(principal) representa al contenido principal del body-->
+        <main>
+            <h1>N E B U L O S A S</h1><!--titulo de la pagina-->
+            <!-- A traves de a web (direccion de la imagen) -->
+        <!-- alt como metadata, relacionada con la imagen pero que no aparece, 
+            no obligatorio pere buena practica, si no se muetra la imgane se muestra esa informacion -->
+            <img class="carina" src="imagenes/carina_nebula_webb.jpg" alt="carina">
+
+            <!-- LISTAS ul(no ordenada)/ li (declara cada uno de los elementos de la lista)-->
+        <h3>¿Qué telescopio es mejor para ver el cosmos?</h3>
+        <ul>
+            <li>James Webb?</li>
+            <li>Hubble?</li>
+        </ul>
+
+        <!-- A traves de nuestra computadora -->
+        <img src="imagenes/galactic_get_together_hubble_web.png" alt="Comparacion de Webb y Hubble">
+        <!--ol  (Lista ordenadas)-->
+        <h3>Caracteristicas del Webb y el Hubble</h3>
+        <ol>
+            <li>El Telescopio Hubble se llevó a órbita en abril de 1990 y el James Webb en diciembre del 2021.</li>
+            <li> El Hubble se encuentra a 593 kilómetros de la tierra, mientras que el James Webb está a 1,5 millones 
+                de kilómetros de la misma.</li>
+            <li>El telescopio Hubble pesa 11 toneladas, mide 13.2 metros de largo y tiene un diámetro de 4.2. 
+                El James Webb pesa 6 toneladas y media, y su tamaño es tan grande que, para transportarlo en un cohete, 
+                se necesitó doblarlo para que luego se desplegara en el espacio. Su tamaño es como el de una cancha de tenis.</li>
+            <li>El espejo primario del telescopio Hubble posee un diámetro de 2.4 metros, mientras que el James Webb
+                 está equipado con un espejo primario conformado por 18 partes de forma hexagonal que en conjunto tienen 
+                 un diámetro de 6.5 metros.</li>
+            <li>El James Webb tiene capacidad para observar objetos 100 veces menos perceptibles que el Hubble.</li>
+            <li>El costo del Hubble ascendió a más de 2 millones de dólares, mientras que el James Webb alcanza los 10 
+                millones de dólares.</li>
+            <li>Hubble es un telescopio reflector que trabaja con base en las longitudes de las ondas ópticas y ultravioleta.
+                El James Webb funciona con luces infrarrojas; es del tipo anastigmat con tres espejos y un campo más amplio de 
+                visión superando hasta en 100 veces la capacidad del Hubble.</li>
+        </ol>
+        <img src="imagenes/stephan_quintet_webb.jpg" alt="pilares de la creacion">
+
+        <!-- MENU NAVEGACION DE NUESTRA PAGINA WEB -->
+        <!-- Subdivicion dentro del body, menos importantes que el main, pero que agrupa  -->
+        <div>
+            <!-- Tipo links pero enlaces que te permiten redirigirte -->
+            <!-- gato (ancla) para redirigirse a otra seccion de mi documento html/pagina web-->
+            <a href = "#¿Qué es una nebulosa?">¿Qué es una nebulosa?</a> <br> 
+            <a href="#¿Comó se forman las estrellas en una nebulosa?">¿Comó se forman las estrellas en una nebulosa?</a><br>
+            <a href="#¿Dónde están las nebulosas?"> ¿Dónde están las nebulosas?</a><br>
+            <a href="¿Cómo sabemos cómo se ven las nebulosas?">¿Cómo sabemos cómo se ven las nebulosas?</a><br>
+        </div>
+        
+        <!--  SECCIONES DE TEXTO -->
+        <!-- id como atributo, nos redirige en nuestra pagina web, se puede colocar el id en cualquier etiqueta, ya sea imagen, parrafo, titulo, etc-->
+        <h3 id = "¿Qué es una nebulosa?"> ¿Qué es una nebulosa? </h3>
+        <!-- Parrafo para puro texto -->
+        <p>Una nebulosa es una nube gigante de polvo y gas en el espacio. Algunas nebulosas provienen del gas y el polvo expulsado por la explosión de una estrella moribunda, como una supernova.
+            Otras nebulosas son regiones donde comienzan a formarse nuevas estrellas. Por esta razón, algunas nebulosas se llaman "viveros de estrellas"</p>
+
+        <h3 id = "¿Comó se forman las estrellas en una nebulosa?">¿Comó se forman las estrellas en una nebulosa?</h3>
+        <p> Las nebulosas están hechas de polvo y gases, principalmente hidrógeno y helio. El polvo y los gases en una nebulosa están muy dispersos, pero la gravedad puede comenzar a juntar 
+            grupos de polvo y gas. A medida que estos grupos se hacen más y más grandes, su fuerza gravitacional se hace más y más fuerte.
+            Finalmente, el grupo de polvo y gas se vuelve tan grande que se colapsa por su propia gravedad. El colapso hace que el material en el centro de la nube se caliente, y este núcleo
+            caliente es el comienzo de una estrella.</p>
+
+        <h3 id = "¿Dónde están las nebulosas?"> ¿Dónde están las nebulosas?</h3>
+        <p> Las nebulosas existen en el espacio entre las estrellas, también conocido como espacio interestelar. La nebulosa conocida más cercana a la Tierra se llama la Nebulosa Helix. 
+            Es el remanente de una estrella moribunda, posiblemente una parecida al Sol. Está aproximadamente a 700 años luz de la Tierra. 
+            Eso significa que incluso si pudiera viajar a la velocidad de la luz, ¡todavía le tomaría 700 años llegar allí!</p>
+        
+        <h3 id = "¿Cómo sabemos cómo se ven las nebulosas?">¿Cómo sabemos cómo se ven las nebulosas?</h3>
+        <p> Los astrónomos usan telescopios muy potentes para tomar imágenes de nebulosas lejanas. Telescopios espaciales de la NASA como el Telescopio Espacial Spitzer y el Telescopio Espacial
+            Hubble han capturado muchas imágenes de nebulosas lejanas.</p>
+        <p>Haz click en esta imagen para sorpresa</p>
+        <!-- Ancla que nos lleva a otro citio web, envuelve a una imagen (envuelve elementos en otros elementos)-->
+        <a href="https://bongo.cat/">
+            <img src="imagenes/rotten_egg_nebula_hubble.jpg" alt="">
+        </a>
+
+        <!-- FORMULARIOS (se alamacena en una base de datos) -->
+        <!-- Diferentes tipos de form, get/post -->
+            <form>
+            <p> ¿Cual es tu duda respecto al tema?</p>
+            <!-- Etiqueta para interfaz de usuario, puedo meter otro elements relacionados con respuestas de mi formulario -->
+            <!-- Nombre de formulario en el forms -->
+            <label for ="Dudas">
+                <input type="text">
+                <!-- Literalmente es un boton -->
+                <button>Enviar</button>
+            </label>
+
+            <!-- Formaulario input radio-->
+            <p>TRIVIA</p>
+            <p>¿En que galaxia esta el planeta tierra?</p>
+            <!--Name_para que las respuestas se asocien-->
+            <!-- FOR - se asocia a cada respuesta individualmente -->
+            <label for="lactea">
+                <input type="radio" name="galaxias"/> Ofrendra
+            </label>
+            <label for="sombrero">
+                <input type="radio" name="galaxias"/> Galaxia del Sombrero
+            </label>
+            <label for="condor">
+                <input type="radio" name="galaxias"/> Galaxia del Cóndor
+            </label>
+            <!-- FORMULARIO INPUT CHECKBOX -->
+            <p>¿Cuál es tu nebulosa favorita?</p>
+            <!-- NAME - para que las respuestas se asocien al mismo formulario -->
+            <!-- FOR - se asocia a cada respuesta individualmente -->
+            <label for="carina">
+                <input type="checkbox" name="nebulosa"/> Nebulosa Carina
+            </label>
+            <label for="lagoon">
+                <input type="checkbox" name="nebulosa"/> Nebulosa Lagoon
+            </label>
+            <label for="bruja">
+                <input type="checkbox" name="nebulosa"/> Nebulosa Cabeza de Bruja
+            </label>
+            </form> 
+            
+            <footer>
+                <p>&copy; 2023 Nebulosas. Todos los derechos reservados.</p>
+            </footer>
+
+        </main>
+    </body>
+</html>
